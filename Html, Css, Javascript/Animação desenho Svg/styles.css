@@ -1,0 +1,16 @@
+.star-animated {
+  fill: transparent;
+  stroke: black;
+  stroke-dasharray: 1850;
+  stroke-dashoffset: 1850;
+  animation: desenho 3s linear forwards;
+}
+
+@keyframes desenho {
+  0% {
+    stroke-dashoffset: 1850;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
